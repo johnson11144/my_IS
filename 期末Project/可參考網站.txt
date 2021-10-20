@@ -1,0 +1,22 @@
+wifi由來
+https://ithelp.ithome.com.tw/articles/10197488
+
+The Tamarin Prover
+https://kknews.cc/zh-tw/code/ja3v6mq.html
+https://en.wikipedia.org/wiki/Tamarin_Prover
+
+WPA2四次握手
+https://zhuanlan.zhihu.com/p/51695002
+
+單播/廣播/組播
+https://www.itread01.com/content/1500214928.html
+
+group key handshake
+https://loda.hala01.com/2017/05/wpa.html
+
+各名詞解釋與詳解
+https://www.gushiciku.cn/pl/2uhk/zh-tw
+https://kysonlok.gitbook.io/blog/wireless/4_way_handshake
+
+WNM-sleep
+https://blog.csdn.net/qq_20677327/article/details/106661252

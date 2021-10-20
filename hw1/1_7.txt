@@ -1,0 +1,19 @@
+kali linux live版:
+	1. 調整時間 timedatectl set-timezone "Asia/Taipei"
+	2. sudo /etc/apt/sources.list
+		deb http://http.kali.org/kali kali-rolling main non-free contrib
+		改成
+		deb https://http.kali.org/kali kali-rolling main non-free contrib
+	3. 裝網卡驅動
+		sudo apt update && apt upgrade
+		apt install -y bc linux-headers-amd64
+		git clone https://github.com/kimocoder/rtl8188e...​
+
+		cd rtl8188eus
+		cp realtek_blacklist.conf /etc/modprobe.d
+		make
+		make install
+
+		systemctl stop NetworkManager.service
+		iwconfig wlan0 mode monitor
+	4. 攻擊
